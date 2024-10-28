@@ -1,0 +1,25 @@
+---
+title: "Get to know me!"
+author: "Samina Rashiq"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+Hi!
+
+My name is Samina and I'm a second-year Master of Public Health (MPH) student at Columbia University. I'm learning to code this semester so that I can use data science to solve public health problems :)
+
+About about me
+* I'm from Edmonton, Alberta, Canada (home to North America's largest urban park, 22x larger than Central Park!)
+* My wallet is made out of pink duct tape
+* Hobbies: basketball, re-organizing the pantry, cooking
+
+
+Some shows I have really been enjoying recently:
+* The Great British Baking Show (Anna Beattie)
+* Insecure (Issa Rae, Larry Wilmore)
+* Beef (Lee Sung Jin)
+* Never Have I Ever (Mindy Kaling, Lang Fischer)
+* Kim's Convenience (Ins Choi, Kevin White)
+* On My Block (Lauren Iungerich, Eddie Gonzalez, Jeremy Haft)
+
