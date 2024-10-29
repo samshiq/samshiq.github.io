@@ -1,13 +1,13 @@
-name: "Yay internet!"
+name: "Samina Rashiq"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html
+    - text: "Get to Know Me"
+      href: get_to_know_me.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: ssr2195@cumc.columbia.edu
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/samshiq/
 output:
   html_document
