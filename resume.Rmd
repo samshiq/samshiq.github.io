@@ -1,0 +1,33 @@
+---
+title: "Resume"
+author: "Samina Rashiq"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+### Education
+
+#### Columbia University Mailman School of Public Health  
+**September 2023 - Present**  
+*Department of Sociomedical Sciences*  
+Certificate in Applied Biostatistics and Public Health Data Science  
+
+#### University of Alberta  
+**September 2018 - April 2022**  
+*Faculty of Science*  
+Major: Biological Sciences, Minor: Psychology  
+
+### Experience
+
+#### Health Promotion Intern - Government of Nunavut Department of Health  
+**May 2024 - Present**  
+- Making educational TB training videos for health care workers  
+- Writing an environmental scan on TB health promotion  
+- Evaluated health promotion activities for a TB screening campaign  
+
+### Volunteer
+
+#### Vice President of Events - The Intentional Community  
+**September 2023 - Present**  
+- Organizing event logistics for a student wellness club  
+- Advertising events to students and the greater NYC community  
