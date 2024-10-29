@@ -1,7 +1,23 @@
 ---
-title: "Holy cow!"
+title: "Samina Rashiq"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: yeti
+    
 ---
 
-### I have a webpage!
+## Welcome to My Website!
 
-And I can put all kinds of stuff on it!
+Hi! I’m Samina, a Master of Public Health (MPH) student at Columbia University. 
+
+### Explore My Site
+- **[Get to Know Me](get_to_know_me.html)** – Learn more about my background, interests, and what drives me.
+- **[Resume](resume.html)** – Discover my academic and professional experiences.
+
+### About This Site
+This website serves as a digital space to share my journey, highlight my skills, and connect with others in public health and data science.
+
+### Connect With Me
+Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/samina-rashiq-38190321a/) or check out my projects on [GitHub](http://github.com/samshiq/).

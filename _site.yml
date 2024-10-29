@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "Get to Know Me"
       href: get_to_know_me.html
+    - text: "Resume"
+      href: resume.html
     - icon: fa-envelope fa-lg
       href: mailto:ssr2195@cumc.columbia.edu
     - icon: fa-github fa-lg
