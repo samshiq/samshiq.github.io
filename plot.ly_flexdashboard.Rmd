@@ -32,6 +32,12 @@ hourly_orders <- instacart %>%
   select(order_hour_of_day)
 save(hourly_orders, file = "hourly_orders.rda")
 
+#load subsets
+
+load("top_10_products.rda")
+load("items_per_order.rda")
+load("hourly_orders.rda")
+
 ```
 
 
