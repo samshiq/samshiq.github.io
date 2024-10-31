@@ -7,6 +7,8 @@ navbar:
       href: get_to_know_me.html
     - text: "Resume"
       href: resume.html
+    - text: "Plots"
+      href: plot.ly_flexdashboard.html  # Link to the dashboard page
     - icon: fa-envelope fa-lg
       href: mailto:ssr2195@cumc.columbia.edu
     - icon: fa-github fa-lg
@@ -15,4 +17,5 @@ navbar:
       href: https://www.linkedin.com/in/samina-rashiq-38190321a/
 output:
   html_document
+
 
