@@ -13,8 +13,9 @@ output:
 Hi! I’m Samina, a Master of Public Health (MPH) student at Columbia University. 
 
 ### Explore My Site
-- **[Get to Know Me](get_to_know_me.html)** – Learn more about my background, interests, and what drives me.
+- **[Get to Know Me](get_to_know_me.html)** – Learn more about my background and interests. 
 - **[Resume](resume.html)** – Discover my academic and professional experiences.
+- **[Plots](plot.ly_flexdashboard.html)** - Here are some fun graphs using data from "The Instacart Online Grocery Shopping Dataset 2017"
 
 ### About This Site
 This website serves as a digital space to share my journey, highlight my skills, and connect with others in public health and data science.
