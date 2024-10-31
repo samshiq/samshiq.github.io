@@ -1,0 +1,77 @@
+---
+title: "Plots"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(plotly)
+library(dplyr)
+
+load("instacart.rda")
+```
+
+
+#### Bar Chart of Top 10 Most Popular Products
+
+```{r}
+top_10_products <- instacart %>%
+  count(product_name, sort = TRUE) %>%
+  head(10)
+
+plot_ly(top_10_products, x = ~reorder(product_name, -n), y = ~n, type = "bar") %>%
+  layout(title = "Top 10 Most Popular Products",
+         xaxis = list(title = "Product"),
+         yaxis = list(title = "Number of Orders"),
+         hoverlabel = list(namelength = -1))
+
+```
+
+
+#### Boxplot: Distribution of Number of Items per Order by Day of the Week
+
+```{r}
+items_per_order <- instacart %>%
+  group_by(order_id, order_dow) %>%
+  summarize(total_items = n(), .groups = 'drop')
+
+plot_ly(
+  items_per_order, 
+  x = ~factor(order_dow, 
+              levels = 0:6, 
+              labels = c("Sunday", "Monday", "Tuesday", 
+                         "Wednesday", "Thursday", "Friday", "Saturday")),
+  y = ~total_items, 
+  type = "box", 
+  boxpoints = "outliers", 
+  marker = list(size = 3, color = 'lightblue')
+) %>%
+  layout(
+    title = "Distribution of Number of Items per Order by Day of the Week",
+    xaxis = list(title = "Day of the Week"),
+    yaxis = list(title = "Number of Items per Order")
+  )
+
+```
+
+
+
+#### Histogram: Distribution of Orders by Hour of the Day
+
+```{r}
+plot_ly(instacart, x = ~order_hour_of_day, type = "histogram",
+        marker = list(
+          color = 'hotpink',     
+          line = list(color = 'darkblue', width = 1)  
+        ),
+        hovertemplate = "Hour: %{x}<br>Orders: %{y}") %>%
+  layout(title = "Distribution of Orders by Hour of the Day",
+         xaxis = list(title = "Hour of the Day"),
+         yaxis = list(title = "Number of Orders"),
+         bargap = 0.1)
+
+```
+
